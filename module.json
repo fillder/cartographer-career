@@ -1,0 +1,37 @@
+{
+  "name": "cartographer-career",
+  "title": "Cartographer Careers",
+  "description": "This module adds the custom Cartographer career to the WFRP4e system on Foundry VTT.",
+  "version": "1.0",
+  "author": "Fillder",
+  "systems": [
+    "wfrp4e"
+  ],
+  "scripts": [],
+  "styles": [],
+  "packs": [
+    {
+      "name": "cartographercareer",
+      "label": "Cartographer Career",
+      "path": "packs/cartographercareer.db",
+      "entity": "Item",
+      "module": "cartographer-career",
+      "system": "wfrp4e",
+      "tags" : ["career"]
+    },
+    {
+      "name": "cartographercareerdescription",
+      "label": "Cartographer Career Descriptions",
+      "path": "packs/cartographercareerdescription.db",
+      "entity": "JournalEntry",
+      "module": "cartographer-career",
+      "system": "wfrp4e",
+      "tags" : []
+    }
+  ],
+  "url": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT",
+  "minimumCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "0.8.8",
+  "manifest": "https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/module.json",
+  "download": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT/archive/master.zip"
+}
